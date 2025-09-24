@@ -58,7 +58,7 @@ function Configuration() {
     };
 
     return (
-        <Card sx={{ width: '400px', maxHeight: '90vh',padding:'10px',margin:'10px'}}>
+        <Card sx={{ width: '400px', height: '90%',padding:'10px',margin:'10px'}}>
             <CardContent>
                 <Typography variant="h5" fontWeight={700} sx={{ marginBottom: 3 }}>
                     CONFIGURATION

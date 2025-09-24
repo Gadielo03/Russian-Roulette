@@ -5,7 +5,6 @@ function Footer() {
     <Box
       component="footer"
       sx={{
-        position: 'fixed',
         bottom: 0,
         left: 0,
         right: 0,

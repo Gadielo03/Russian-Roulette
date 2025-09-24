@@ -12,20 +12,22 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Stack 
-        direction="row" 
-        spacing={12} 
-        sx={{ 
-          width: '100%', 
-          alignItems: 'center',
-          justifyContent: 'center'
-        }}
-      >
-        {!sessionActive && <Configuration/>}
-        <Roulette />
+      <Stack spacing={5} sx={{ width: '100%'}}>
+        <Header />
+        <Stack
+          direction="row"
+          spacing={12}
+          sx={{
+            width: '100%',
+            alignItems: 'center',
+            justifyContent: 'center'
+          }}
+        >
+          {!sessionActive && <Configuration />}
+          <Roulette />
+        </Stack>
+        <Footer />
       </Stack>
-      <Footer />
     </>
   )
 }
