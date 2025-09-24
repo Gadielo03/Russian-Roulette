@@ -109,7 +109,7 @@ function Roulette() {
                 winner={winner}
                 onRemove={handleRemoveOption}
                 onSkip={handleSkip}
-                onClose={wheelOptions.length <= 1 ? handleEndSession : handleSkip}
+                onClose={wheelOptions.length < 1 ? handleEndSession : handleSkip}
                 onEndSession={handleEndSession}
                 isLastElement={wheelOptions.length <= 1}
             />
